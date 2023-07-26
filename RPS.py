@@ -73,11 +73,11 @@ while True:
         print("Computer Win")
         comp_score +=1
 
-
+    print("\n")
     print("user's score is >> ",user_score)
     print("computer's score is >> ",comp_score)
     print("ties are>>",ties)
 
-    play_again = input("Play again? (y/n): ")
+    play_again = input("Play again? (y/any key): ")
     if play_again.lower() != "y":
         break
